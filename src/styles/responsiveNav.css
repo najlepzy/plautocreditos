@@ -1,0 +1,136 @@
+@media screen and (min-width: 1315px) and (max-width: 1480px) {
+  .iconContainerTrio {
+    width: 60%;
+    margin-left: -20%;
+  }
+
+  .loginAccess {
+    margin-left: 5%;
+  }
+
+  .burgerMenuContainer {
+    visibility: hidden;
+  }
+}
+
+/* tablet mediaq */
+@media screen and (min-width: 1315px) and (max-width: 1480px) {
+  .iconContainerTrio {
+    width: 60%;
+    margin-left: -20%;
+  }
+
+  .loginAccess {
+    margin-left: 5%;
+  }
+
+  .burgerMenuContainer {
+    visibility: hidden;
+  }
+}
+
+/* tablet mediaq */
+/* mobile first */
+@media screen and (min-width: 1230px) and (max-width: 1314px) {
+  .navBarContainer ul {
+    margin-left: -3%;
+  }
+
+  .iconContainerTrio {
+    width: 100%;
+    margin-left: -23%;
+  }
+
+  .loginAccess {
+    margin-left: -20%;
+  }
+}
+
+/* hide the burgerMenu render for 1231px or more size resolution */
+@media (min-width: 1231px) {
+  .burgerMenuContainer {
+    visibility: hidden;
+    width: 0;
+  }
+}
+
+/* hide the burgerMenu render for 1231px or more size resolution */
+@media screen and (min-width: 500px) and (max-width: 1230px) {
+  .orderContainer {
+    border: 1px solid red;
+    width: 40%;
+  }
+}
+
+.brand {}
+
+
+@media screen and (max-width: 1230px) {
+  .navbar_bg {
+    overflow: hidden;
+    padding: 0;
+  }
+
+  .brandContainer {
+    width: 200px;
+  }
+
+  /* burgerMenu */
+  .burgerMenuContainer {
+    display: block;
+    width: 70%;
+    height: 100%;
+    padding-left: 2rem;
+    border: 1px solid red;
+  }
+
+  .burgerMenuSquare {
+    width: 40px;
+    position: relative;
+    cursor: pointer;
+  }
+
+  .line {
+    background-color: #00c09a;
+    border: 1px solid #00c09a9a;
+    height: 5px;
+    border-radius: 20%;
+    margin: 5px 0;
+    transition: 0.4s;
+  }
+
+  .line.open.line1 {
+    transform: translateY(10px) rotate(45deg);
+  }
+
+  .line.open.line2 {
+    transform: scale(0);
+  }
+
+  .line.open.line3 {
+    transform: translateY(-10px) rotate(-45deg);
+  }
+
+  /* burgerMenu ends*/
+  /* responsiveNavBar */
+  .navBarContainerMobile {
+    position: absolute;
+    top: 6rem;
+    left: 0;
+    height: 100%;
+    width: 40%;
+    border-right: 1px solid black;
+    background-color: rgb(80, 20, 120);
+  }
+
+  /* responsiveNavBar */
+  .navBarContainer,
+  .navBarContainerTwo {
+    visibility: hidden;
+    width: 0;
+  }
+
+}
+
+
+/* mobile first */
